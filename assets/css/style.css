@@ -1,48 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Your Profession</p>
-        <img src="assets/img/profile-pic.jpg" alt="Your Profile Picture">
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-    <section>
-        <h2>About Me</h2>
-        <p>Brief introduction or summary of your career.</p>
-    </section>
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
 
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>Job Title</strong> - Company Name (Year - Year)</li>
-            <li><strong>Job Title</strong> - Company Name (Year - Year)</li>
-        </ul>
-    </section>
+section {
+    padding: 20px;
+    margin: 20px;
+}
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Degree</strong> - University Name (Year)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>Contact Information: email@example.com</p>
-    </footer>
-</body>
-</html>
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
